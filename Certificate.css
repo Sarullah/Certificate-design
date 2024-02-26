@@ -1,0 +1,367 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 70%;
+    height: 740px;
+    /* background-color: rgb(211, 211, 211); */
+    margin-left: 210px;
+    margin-top: 20px;
+    padding-left:60px;
+    padding-top: 10px;
+    border: 1px solid black;
+    position: relative;
+}
+
+.box1{
+    width:50px;
+    height: 50px;
+    background-color: rgba(245, 109, 68, 0.4);
+    border-radius: 6px;
+    position: absolute;
+    top: 13vh;
+    left: 0;
+    z-index: 1;
+
+}
+.box2{
+    width:75px;
+    height: 75px;
+    background-color: rgba(228, 85, 42, 0.4);
+    border-radius: 10px;
+    position: absolute;
+    top: 6vh;
+    left: 4vh;    
+    z-index: 2;
+}
+.box3{
+    width:120px;
+    height: 120px;
+    background-color: rgba(228, 85, 42, 0.7);
+    border-radius: 10px;
+    position: absolute;
+    top: 12vh;
+    left: 10vh; 
+    z-index: 6;
+}
+
+.box4{
+    width:140px;
+    height: 120px;
+    background-color: rgba(228, 52, 61, 0.8);
+    border-radius: 10px;
+    position: absolute;
+    top: 1vh;
+    left: 23vh; 
+    z-index: 2;
+}
+.box5{
+    width:90px;
+    height: 90px;
+    background-color: rgba(241, 74, 22, 0.8);
+    border-radius: 10px;
+    position: absolute;
+    top: 13vh;
+    left: 37vh; 
+    z-index: 4;
+}
+
+.box6{
+    width:100px;
+    height: 100px;
+    background-color: rgba(248, 67, 127, 0.5);
+    border-radius: 10px;
+    position: absolute;
+    top: 3vh;
+    left: 46vh; 
+    z-index: 1;
+}
+.box7{
+    width:150px;
+    height: 140px;
+    background-color: rgba(226, 130, 101, 0.6);
+    border-radius: 10px;
+    position: absolute;
+    top: 12vh;
+    left: 56vh; 
+    z-index: 7;
+}
+
+
+.box8{
+    width:120px;
+    height: 120px;
+    background-color: rgba(13, 85, 17, 0.6);
+    border-radius: 10px;
+    position: absolute;
+    top: 1vh;
+    left: 72vh; 
+    z-index: 3;
+}
+
+
+.box9{
+    width:80px;
+    height: 70px;
+    background-color: rgba(97, 161, 37, 0.7);
+    border-radius: 10px;
+    position: absolute;
+    top: 14vh;
+    left: 85vh;
+    z-index: 8;
+}
+
+
+.box10{
+    width:130px;
+    height: 130px;
+    background-color: rgba(75, 124, 146, 0.5);
+    border-radius: 10px;
+    position: absolute;
+    top: 2vh;
+    left: 93vh;
+    z-index: 6;
+}
+
+.box11{
+    width:100px;
+    height: 80px;
+    background-color: rgba(0, 131, 192, 0.8);
+    border-radius: 10px;
+    position: absolute;
+    top: 15vh;
+    left: 107vh;
+    z-index: 5;
+}
+
+.box12{
+    width:80px;
+    height: 80px;
+    background-color: rgba(44, 158, 40, 0.6);
+    border-radius: 10px;
+    position: absolute;
+    top: 7vh;
+    left: 117vh;
+    z-index: 1;
+}
+
+.box13{
+    width:80px;
+    height: 80px;
+    background-color: rgba(96, 37, 114, 0.4);
+    border-radius: 10px;
+    position: absolute;
+    top: 3vh;
+    left: 126vh;
+    z-index: 9;
+}
+
+
+.box14{
+    width:70px;
+    height: 70px;
+    background-color: rgba(255, 130, 218, 0.4);
+    border-radius: 10px;
+    position: absolute;
+    top: 16vh;
+    left: 125vh;
+    z-index: 6;
+}
+
+.box15{
+    width:50px;
+    height: 50px;
+    background-color: rgba(255, 130, 218, 0.3);
+    border-radius: 10px;
+    position: absolute;
+    top: 22vh;
+    left: 132vh;
+    z-index: 3;
+}
+
+
+
+.box16{
+    width:50px;
+    height: 50px;
+    background-color: rgba(248, 46, 46, 0.3);
+    border-radius: 5px;
+    position: absolute;
+    top: 13vh;
+    left: 136vh;
+    z-index: 6;
+}
+
+
+
+hr{
+    width: 100%;
+    height: 3px;
+    background-color:black;
+    margin-top: 100px;
+    margin-left: -30px;
+}
+
+
+.text{
+    color: rgb(13, 95, 13);
+    font-size: 30px;
+    letter-spacing: 4px;
+    margin-left: 480px;
+    margin-top: 5px;
+}
+p{
+    margin-left: -3vh;
+    font-family: Adobe Arabic;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 50px;
+    line-height: 50px;
+    word-spacing: 10px;
+    color: rgb(119, 84, 13);
+
+}
+
+
+img{
+    width: 160px;
+    margin-top:-1000px;
+}
+
+
+.label{
+    width: 100%;
+    height: 90px;
+    background-color: rgb(17, 15, 15);
+    position: absolute;
+    top: 29.5vh;
+    left: 0;
+    box-shadow: 10px 5px 5px rgb(54, 52, 52) ;
+}
+
+
+h1{
+    color: rgb(214, 59, 20);
+    position: absolute;
+    top: 2.8vh;
+    left: 50vh;
+    font-size: 37px;
+    font-family: sans-serif;
+}
+
+span{
+    color: white;
+}
+
+h2{
+    color: white;
+    position: absolute;
+    top: 2.8vh;
+    font-size: 43px;
+    letter-spacing: 15px;
+    left: 8vh;
+}
+
+.Ethical{
+    color: white;
+    font-size: 12px;
+    position: absolute;
+    left: 10vh;
+    word-spacing: 16px;
+}
+
+.this-is{
+    color: black;
+    position: absolute;
+    top: 35vh;
+    left: 59vh;
+    font-size: 35px;
+    word-spacing: 8px;
+}
+
+h3{
+    position: absolute;
+    top: 48vh;
+    left: 59vh;
+    font-size: 40px;
+    color: rgb(163, 8, 8);
+}
+
+.has{
+    color: black;
+    position: absolute;
+    top: 49vh;
+    left: 37vh;
+    font-size: 35px;
+    word-spacing: 8px;
+}
+
+
+.EC{
+    color: black;
+    position: absolute;
+    top: 55vh;
+    left: 40vh;
+    font-size: 50px;
+    word-spacing: 8px;
+}
+
+
+.Certification{
+    color: black;
+    position: absolute;
+    top: 62vh;
+    left: 35vh;
+    font-size: 35px;
+    word-spacing: 8px;
+}
+
+
+.issue{
+    color: black;
+    position: absolute;
+    top: 69vh;
+    left: 12vh;
+    font-size: 28px;
+    word-spacing: 8px;
+}
+
+
+
+.expiry{
+    color: black;
+    position: absolute;
+    top: 69vh;
+    left: 105vh;
+    font-size: 28px;
+    word-spacing: 8px;
+}
+
+
+.foot{
+    position: absolute;
+    top: 83vh;
+    left: 63vh;
+    font-size: 40px;
+    color: rgb(136, 7, 7);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+hr{
+    width: 20vh;
+    position: absolute;
+    top: 74vh;
+    left: 112vh;
+}
+
+.sign{
+    color: black;
+    position: absolute;
+    top: 79vh;
+    left: 112vh;
+    font-size: 20px;
+    word-spacing: 8px;
+}
